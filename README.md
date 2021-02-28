@@ -1,4 +1,5 @@
 # Lab8
 
-Cypress and Jest weren't working too well together
-so we've separated the two out in different parts
+
+Yihe Tang A15545827 
+Kelynn Ma A15885815
