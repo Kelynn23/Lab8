@@ -48,7 +48,7 @@ describe('Party Horn Tests', () => {
   });
 
   it('Volume Image Test Medium', () => {
-    cy.get('#volume-slider').invoke('val', "50").trigger('input');
+    cy.get('#volume-slider').invoke('val', "66").trigger('input');
     cy.get('#volume-image').then( () => function($el) {
       expect($el).to.have.attr('src', "./assets/media/icons/volume-level-2.svg");
     })
